@@ -3,7 +3,7 @@ library(data.table)
 library(tidyverse)
 library(tidytext)
 
-data = read.csv("billboard_lyrics_1965-2018.txt", header = TRUE)
+data = read.csv("billboard_lyrics_1965-2018.csv", header = TRUE)
 
 
 ui <- fluidPage(
